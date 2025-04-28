@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\data\\migrations\\20250428192534_mig_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:data\\migrations\\20250428192534_mig_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\viewmodel\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:viewmodel\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\data\\juandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:data\\juandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\models\\feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:models\\feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250428192534_mig_3.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Data\\Migrations\\20250428192534_mig_3.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20250428192534_mig_3.cs",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Data\\Migrations\\20250428192534_mig_3.cs",
+              "RelativeToolTip": "Data\\Migrations\\20250428192534_mig_3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T19:25:34.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Feature.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Models\\Feature.cs",
+              "RelativeDocumentMoniker": "Models\\Feature.cs",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Models\\Feature.cs",
+              "RelativeToolTip": "Models\\Feature.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T19:18:22.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T19:10:59.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JuanDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Data\\JuanDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\JuanDbContext.cs",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Data\\JuanDbContext.cs",
+              "RelativeToolTip": "Data\\JuanDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T19:07:25.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T19:05:54.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeVm.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\ViewModel\\HomeVm.cs",
+              "RelativeDocumentMoniker": "ViewModel\\HomeVm.cs",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\ViewModel\\HomeVm.cs",
+              "RelativeToolTip": "ViewModel\\HomeVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T19:05:44.583Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 using JuanApp.Data;
+using JuanApp.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +16,7 @@ builder.Services.AddDbContext<JuanDbContext>(options =>
 {
     options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
 });
+builder.Services.AddScoped<LayoutService>();
 
 var app = builder.Build();
 

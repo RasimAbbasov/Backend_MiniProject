@@ -6,5 +6,7 @@ namespace JuanApp.ViewModel
     {
         public List<Slider> Sliders { get; set; }
         public List<Feature> Features { get; set; }
+        public List<Product> NewProducts { get; set; }
+        public List<Product> TopProducts { get; set; }
     }
 }

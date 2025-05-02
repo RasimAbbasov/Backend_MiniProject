@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace JuanApp.Data
 {
-    public class JuanDbContext: DbContext
+    public class JuanDbContext : DbContext
     {
         public JuanDbContext(DbContextOptions<JuanDbContext> options) : base(options)
         {
@@ -13,5 +13,34 @@ namespace JuanApp.Data
         }
         public DbSet<Slider> Sliders { get; set; }
         public DbSet<Feature> Features { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Setting> Settings { get; set; }
+        public DbSet<Tag> Tags { get; set; }
+        public DbSet<ProductImage> ProductImages { get; set; }
+        public DbSet<ProductTag> ProductTags { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(JuanDbContext).Assembly);
+        }
+        public override int SaveChanges()
+        {
+            var entries = ChangeTracker.Entries<BaseEntity>();
+            foreach (var entry in entries)
+            {
+                if (entry.State == EntityState.Added)
+                {
+                    entry.Entity.CreateDate = DateTime.Now;
+                }
+                if (entry.State == EntityState.Modified)
+                {
+                    entry.Entity.UpdateDate = DateTime.Now;
+                }
+
+            }
+            return base.SaveChanges();
+        }
     }
 }

@@ -561,6 +561,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\manage\\assets\\css\\styles.css",
+      "PackagePath": "staticwebassets\\manage\\assets\\css\\styles.css"
+    },
+    {
       "Id": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\manage\\assets\\demo\\chart-area-demo.js",
       "PackagePath": "staticwebassets\\manage\\assets\\demo\\chart-area-demo.js"
     },
@@ -581,16 +585,12 @@
       "PackagePath": "staticwebassets\\manage\\assets\\img\\error-404-monochrome.svg"
     },
     {
-      "Id": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\manage\\css\\styles.css",
-      "PackagePath": "staticwebassets\\manage\\css\\styles.css"
+      "Id": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\manage\\assets\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\manage\\assets\\js\\datatables-simple-demo.js"
     },
     {
-      "Id": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\manage\\js\\datatables-simple-demo.js",
-      "PackagePath": "staticwebassets\\manage\\js\\datatables-simple-demo.js"
-    },
-    {
-      "Id": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\manage\\js\\scripts.js",
-      "PackagePath": "staticwebassets\\manage\\js\\scripts.js"
+      "Id": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\manage\\assets\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\manage\\assets\\js\\scripts.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.JuanApp.Microsoft.AspNetCore.StaticWebAssets.props",

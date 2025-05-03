@@ -1,0 +1,114 @@
+﻿@using JuanApp.Areas.Manage.ViewModel
+@model PaginationVm<Slider>
+@{
+    var count = (Model.CurrentPage - 1) * 2;
+}
+<table class="table">
+    <a asp-action="create" class="btn btn-success">Create</a>
+    <thead>
+        <tr>
+            <th scope="col">Count</th>
+            <th scope="col">Image</th>
+            <th scope="col">Title</th>
+            <th scope="col">Desc</th>
+            <th scope="col">Link</th>
+            <th scope="col">Text</th>
+            <th scope="col">Order</th>
+            <th scope="col">Created Date</th>
+            <th scope="col">Updated Date</th>
+            <th scope="col">Setting</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var slider in Model.Items)
+        {
+
+            count++;
+            <tr>
+                <th scope="row">@count</th>
+                <td>
+                    <img width="150" height="150" src="~/assets/img/slider/@slider.Image" alt="" />
+                </td>
+                <td>@slider.Subtitle</td>
+                <td>@slider.Title</td>
+                <td>@slider.Description</td>
+                <td>@slider.ButtonLink</td>
+                <td>@slider.ButtonText</td>
+                <td>@slider.Order</td>
+                <td>@slider.CreateDate?.ToString("dd MMMM,yyyy")</td>
+                <td>@slider.UpdateDate?.ToString("dd MMMM,yyyy")</td>
+                <td>
+                    <a asp-action="edit" asp-route-id="@slider.Id" class="btn btn-primary">Edit</a>
+                    <a asp-action="detail" asp-route-id="@slider.Id" class="btn btn-primary">Detail</a>
+                    <a asp-action="delete" asp-route-id="@slider.Id" class="btn btn-danger deleteslider">Delete</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+<div class="container">
+    <div class="row justify-content-center">
+        <nav aria-label="...">
+            <ul class="pagination">
+                <li class="page-item @(Model.HasPrevious?"": "disabled")">
+                    <a asp-action="index" asp-route-page="@(Model.CurrentPage-1)" class="page-link" tabindex="-1">Previous</a>
+                </li>
+                @for (int i = 1; i <= Model.PageCount; i++)
+                {
+                    <li class="page-item @(Model.CurrentPage==i?"disabled":"")">
+                        <a asp-action="index" asp-route-page="@i" class="page-link">@i</a>
+                    </li>
+                }
+                <li class="page-item @(Model.HasNext?"":"disabled")">
+                    <a class="page-link" asp-action="index" asp-route-page="@(Model.CurrentPage+1)">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('.deleteslider').on('click', function (e) {
+                e.preventDefault();
+                Swal.fire({
+                    title: "Are you sure?",
+                    text: "You won't be able to revert this!",
+                    icon: "warning",
+                    showCancelButton: true,
+                    confirmButtonColor: "#3085d6",
+                    cancelButtonColor: "#d33",
+                    confirmButtonText: "Yes, delete it!"
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        var url = $(this).attr('href');
+                        fetch(url)
+                            .then(response => {
+                                if (response.ok) {
+
+                                    Swal.fire({
+                                        title: "Deleted!",
+                                        text: "Your file has been deleted.",
+                                        icon: "success"
+                                    });
+                                    window.location.reload();
+                                }
+                                else {
+                                    Swal.fire({
+                                        icon: "error",
+                                        title: "Oops...",
+                                        text: "Something went wrong!",
+                                        footer: '<a href="#">Why do I have this issue?</a>'
+                                    });
+                                }
+                            })
+
+                    }
+                });
+            });
+        });
+
+    </script>
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CKwKzjER7OiYKWSHjZ5E8fCPNCnXAQNkbe5WAotMJmA=",
+  "Hash": "SoHucp6P/sS/7fBILfaE7gwSrfI/o6CMMP1uDj6+JOw=",
   "Source": "JuanApp",
   "BasePath": "_content/JuanApp",
   "Mode": "Default",
@@ -2696,6 +2696,44 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\manage\\assets\\_Layout.cshtml",
+      "SourceId": "JuanApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\",
+      "BasePath": "_content/JuanApp",
+      "RelativePath": "manage/assets/_Layout.cshtml",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "wwwroot\\manage\\assets\\_Layout.cshtml"
+    },
+    {
+      "Identity": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\manage\\assets\\css\\styles.css",
+      "SourceId": "JuanApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\",
+      "BasePath": "_content/JuanApp",
+      "RelativePath": "manage/assets/css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\manage\\assets\\css\\styles.css"
+    },
+    {
       "Identity": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\manage\\assets\\demo\\chart-area-demo.js",
       "SourceId": "JuanApp",
       "SourceType": "Discovered",
@@ -2791,12 +2829,12 @@
       "OriginalItemSpec": "wwwroot\\manage\\assets\\img\\error-404-monochrome.svg"
     },
     {
-      "Identity": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\manage\\css\\styles.css",
+      "Identity": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\manage\\assets\\js\\datatables-simple-demo.js",
       "SourceId": "JuanApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\",
       "BasePath": "_content/JuanApp",
-      "RelativePath": "manage/css/styles.css",
+      "RelativePath": "manage/assets/js/datatables-simple-demo.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2807,15 +2845,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\manage\\css\\styles.css"
+      "OriginalItemSpec": "wwwroot\\manage\\assets\\js\\datatables-simple-demo.js"
     },
     {
-      "Identity": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\manage\\js\\datatables-simple-demo.js",
+      "Identity": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\manage\\assets\\js\\scripts.js",
       "SourceId": "JuanApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\",
       "BasePath": "_content/JuanApp",
-      "RelativePath": "manage/js/datatables-simple-demo.js",
+      "RelativePath": "manage/assets/js/scripts.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2826,26 +2864,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\manage\\js\\datatables-simple-demo.js"
-    },
-    {
-      "Identity": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\manage\\js\\scripts.js",
-      "SourceId": "JuanApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\",
-      "BasePath": "_content/JuanApp",
-      "RelativePath": "manage/js/scripts.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\manage\\js\\scripts.js"
+      "OriginalItemSpec": "wwwroot\\manage\\assets\\js\\scripts.js"
     }
   ]
 }

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using JuanApp.Areas.Manage.Attributes;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace JuanApp.Models
@@ -11,6 +12,11 @@ namespace JuanApp.Models
             public string Description { get; set; }
             public string ButtonLink { get; set; }
             public string ButtonText { get; set; }
-            public int Order { get; set; }
+        public int Order { get; set; }
+        [NotMapped]
+        [AllowedType("image/png", "image/jpeg")]
+        [AllowedLength(2 * 1024 * 1024)]
+        public IFormFile File { get; set; }     
+
     }
 }

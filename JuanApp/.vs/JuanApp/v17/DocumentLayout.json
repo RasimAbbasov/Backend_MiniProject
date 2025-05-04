@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\views\\slider\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,52 +23,44 @@
       "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\viewmodel\\paginationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\viewmodel\\paginationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\views\\category\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\views\\category\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\attributes\\allowedtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\attributes\\allowedtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\helpers\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\helpers\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\attributes\\allowedlength.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\attributes\\allowedlength.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|c:\\users\\rasim\\source\\repos\\juanapp\\juanapp\\areas\\manage\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEA6917E-39E6-4080-8701-9FA774135921}|JuanApp.csproj|solutionrelative:areas\\manage\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,215 +70,198 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Areas\\Manage\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAkwFkAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:08:33.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Areas\\Manage\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAAACMAAAAUAAAA",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Slider\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Slider\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Slider\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Manage\\Views\\Slider\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-03T13:21:39.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T13:16:31.561Z",
+              "WhenOpened": "2025-05-04T18:49:03.455Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Slider\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Slider\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Slider\\Edit.cshtml",
-              "RelativeToolTip": "Areas\\Manage\\Views\\Slider\\Edit.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADIAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Manage\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-03T13:09:03.756Z",
+              "WhenOpened": "2025-05-04T18:48:51.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Areas\\Manage\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-03T13:06:34.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Slider\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Slider\\Create.cshtml",
               "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Slider\\Create.cshtml",
               "RelativeToolTip": "Areas\\Manage\\Views\\Slider\\Create.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAADAAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-03T13:05:38.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Slider\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Slider\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Slider\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Manage\\Views\\Slider\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-03T13:05:09.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Areas\\Manage\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-03T13:04:48.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-03T13:03:53.399Z",
+              "WhenOpened": "2025-05-04T18:24:30.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "Areas\\Manage\\Controllers\\DashboardController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T12:40:43.406Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Manage\\Views\\Product\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T18:22:47.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FileManager.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Helpers\\FileManager.cs",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Helpers\\FileManager.cs",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Helpers\\FileManager.cs",
-              "RelativeToolTip": "Areas\\Manage\\Helpers\\FileManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAzwAkAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T12:25:32.046Z",
+              "WhenOpened": "2025-05-04T18:14:28.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PaginationVm.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\ViewModel\\PaginationVm.cs",
-              "RelativeDocumentMoniker": "Areas\\Manage\\ViewModel\\PaginationVm.cs",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\ViewModel\\PaginationVm.cs",
-              "RelativeToolTip": "Areas\\Manage\\ViewModel\\PaginationVm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T12:23:11.172Z",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Manage\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T18:13:35.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "ProductImage.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Models\\ProductImage.cs",
+              "RelativeDocumentMoniker": "Models\\ProductImage.cs",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Models\\ProductImage.cs",
+              "RelativeToolTip": "Models\\ProductImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T17:47:00.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SliderController.cs",
               "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\SliderController.cs",
               "RelativeDocumentMoniker": "Areas\\Manage\\Controllers\\SliderController.cs",
               "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\SliderController.cs",
               "RelativeToolTip": "Areas\\Manage\\Controllers\\SliderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAFEAAABrAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T12:19:14.334Z",
+              "WhenOpened": "2025-05-04T17:25:36.682Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Areas\\Manage\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Areas\\Manage\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAAwGgAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T12:42:17.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Slider\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Slider\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Slider\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Manage\\Views\\Slider\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T12:37:38.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Manage\\Views\\Category\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T12:33:04.771Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "AllowedType.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Attributes\\AllowedType.cs",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Attributes\\AllowedType.cs",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Attributes\\AllowedType.cs",
-              "RelativeToolTip": "Areas\\Manage\\Attributes\\AllowedType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T12:15:09.437Z",
-              "EditorCaption": ""
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Category\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Category\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Category\\Detail.cshtml",
+              "RelativeToolTip": "Areas\\Manage\\Views\\Category\\Detail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T12:32:36.624Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AllowedLength.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Attributes\\AllowedLength.cs",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Attributes\\AllowedLength.cs",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Attributes\\AllowedLength.cs",
-              "RelativeToolTip": "Areas\\Manage\\Attributes\\AllowedLength.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAyAAAA",
+              "DocumentIndex": 8,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Areas\\Manage\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Areas\\Manage\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAawCgAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T12:14:41.536Z",
+              "WhenOpened": "2025-05-04T12:30:23.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Slider.cs",
-              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Models\\Slider.cs",
-              "RelativeDocumentMoniker": "Models\\Slider.cs",
-              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Models\\Slider.cs",
-              "RelativeToolTip": "Models\\Slider.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T12:07:32.435Z",
-              "EditorCaption": ""
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Manage\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T12:30:53.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Manage\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\Areas\\Manage\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Manage\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T12:25:38.176Z"
             }
           ]
         }

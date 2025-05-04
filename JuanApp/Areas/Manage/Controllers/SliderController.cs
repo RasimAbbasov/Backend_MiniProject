@@ -70,7 +70,6 @@ namespace JuanApp.Areas.Manage.Controllers
             var existSlider = juanDbContext.Sliders.FirstOrDefault(x => x.Id == slider.Id);
             if (existSlider == null)
                 return NotFound();
-
             if (!ModelState.IsValid)
                 return View(slider);
 

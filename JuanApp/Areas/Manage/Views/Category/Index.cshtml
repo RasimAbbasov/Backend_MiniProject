@@ -1,5 +1,5 @@
 ﻿@using JuanApp.Areas.Manage.ViewModel
-@model PaginationVm<Slider>
+@model PaginationVm<Category>
 @{
     var count = (Model.CurrentPage - 1) * 2;
 }
@@ -8,40 +8,26 @@
     <thead>
         <tr>
             <th scope="col">Count</th>
-            <th scope="col">Image</th>
-            <th scope="col">Subtitle</th>
-            <th scope="col">Title</th>
-            <th scope="col">Desc</th>
-            <th scope="col">Link</th>
-            <th scope="col">Text</th>
-            <th scope="col">Order</th>
+            <th scope="col">Name</th>
             <th scope="col">Created Date</th>
             <th scope="col">Updated Date</th>
             <th scope="col">Setting</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var slider in Model.Items)
+        @foreach (var category in Model.Items)
         {
 
             count++;
             <tr>
                 <th scope="row">@count</th>
+                <td>@category.Name</td>
+                <td>@category.CreateDate?.ToString("dd MMMM,yyyy")</td>
+                <td>@category.UpdateDate?.ToString("dd MMMM,yyyy")</td>
                 <td>
-                    <img width="200" height="100" src="~/assets/img/slider/@slider.Image" alt="" />
-                </td>
-                <td>@slider.Subtitle</td>
-                <td>@slider.Title</td>
-                <td>@slider.Description</td>
-                <td>@slider.ButtonLink</td>
-                <td>@slider.ButtonText</td>
-                <td>@slider.Order</td>
-                <td>@slider.CreateDate?.ToString("dd MMMM,yyyy")</td>
-                <td>@slider.UpdateDate?.ToString("dd MMMM,yyyy")</td>
-                <td>
-                    <a asp-action="edit" asp-route-id="@slider.Id" class="btn btn-primary">Edit</a>
-                    <a asp-action="detail" asp-route-id="@slider.Id" class="btn btn-primary">Detail</a>
-                    <a asp-action="delete" asp-route-id="@slider.Id" class="btn btn-danger deleteslider">Delete</a>
+                    <a asp-action="edit" asp-route-id="@category.Id" class="btn btn-primary">Edit</a>
+                    <a asp-action="detail" asp-route-id="@category.Id" class="btn btn-primary">Detail</a>
+                    <a asp-action="delete" asp-route-id="@category.Id" class="btn btn-danger deletecategory">Delete</a>
                 </td>
             </tr>
         }
@@ -72,7 +58,7 @@
 @section scripts {
     <script>
         $(document).ready(function () {
-            $('.deleteslider').on('click', function (e) {
+            $('.deletecategory').on('click', function (e) {
                 e.preventDefault();
                 Swal.fire({
                     title: "Are you sure?",

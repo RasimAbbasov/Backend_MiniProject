@@ -1,0 +1,86 @@
+﻿@model Product
+
+<div class="container">
+    <div class="row justify-content-center">
+        <form method="post" asp-action="Edit" enctype="multipart/form-data" class="col-md-8">
+
+            <div class="form-group">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" />
+                <span class="text-danger" asp-validation-for="Name"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description"></label>
+                <input asp-for="Description" class="form-control" />
+                <span class="text-danger" asp-validation-for="Description"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Price"></label>
+                <input asp-for="Price" class="form-control" />
+                <span class="text-danger" asp-validation-for="Price"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DiscountPercentage"></label>
+                <input asp-for="DiscountPercentage" class="form-control" />
+                <span class="text-danger" asp-validation-for="DiscountPercentage"></span>
+            </div>
+
+            <div class="form-group d-flex">
+                <div class="form-check col-4">
+                    <input asp-for="IsTopSeller" class="form-check-input" />
+                    <label asp-for="IsTopSeller" class="form-check-label"></label>
+                </div>
+                <div class="form-check col-4">
+                    <input asp-for="IsNew" class="form-check-input" />
+                    <label asp-for="IsNew" class="form-check-label"></label>
+                </div>
+                <div class="form-check col-4">
+                    <input asp-for="InStock" class="form-check-input" />
+                    <label asp-for="InStock" class="form-check-label"></label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Category"></label>
+                <select asp-for="CategoryId" class="form-select" asp-items="@ViewBag.Categories"></select>
+                <span class="text-danger" asp-validation-for="CategoryId"></span>
+            </div>
+
+            <div class="form-group">
+                <label>Main Image</label>
+                <input asp-for="MainFile" accept="image/*" class="form-control" />
+                <span class="text-danger" asp-validation-for="MainFile"></span>
+
+                @{
+                    var mainImage = Model.ProductImages?.FirstOrDefault(pi => pi.IsMain);
+                }
+                @if (mainImage != null)
+                {
+                    <img src="~/assets/img/product/@mainImage.Image" height="150" class="mt-2" />
+                }
+            </div>
+
+            <div class="form-group">
+                <label>Additional Images</label>
+                <input asp-for="Files" type="file" multiple accept="image/*" class="form-control" />
+                <span class="text-danger" asp-validation-for="Files"></span>
+
+                <div class="d-flex flex-wrap gap-2 mt-2">
+                    @foreach (var img in Model.ProductImages?.Where(p => !p.IsMain) ?? Enumerable.Empty<ProductImage>())
+                    {
+                        <img src="~/assets/img/product/@img.Image" height="100" />
+                    }
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary mt-3">Save Changes</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @Html.Partial("_ValidationScriptsPartial")
+}

@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace JuanApp.Data
 {
-    public class JuanDbContext : DbContext
+    public class JuanDbContext : IdentityDbContext<AppUser>
     {
         public JuanDbContext(DbContextOptions<JuanDbContext> options) : base(options)
         {
@@ -19,6 +19,8 @@ namespace JuanApp.Data
         public DbSet<Tag> Tags { get; set; }
         public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<ProductTag> ProductTags { get; set; }
+        public DbSet<AppUser> AppUsers { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

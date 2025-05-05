@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4g14w8523WYGquOPIBDTH7mdOiu3OOaBTQqG6049WNE=",
+  "Hash": "9yfM9y/a61IFZKnNSZ3UXAXFS2WN18wuCNhr2TATOJY=",
   "Source": "JuanApp",
   "BasePath": "_content/JuanApp",
   "Mode": "Default",
@@ -2808,25 +2808,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\manage\\assets\\_Layout.cshtml",
-      "SourceId": "JuanApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\",
-      "BasePath": "_content/JuanApp",
-      "RelativePath": "manage/assets/_Layout.cshtml",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "wwwroot\\manage\\assets\\_Layout.cshtml"
     },
     {
       "Identity": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\manage\\assets\\css\\styles.css",

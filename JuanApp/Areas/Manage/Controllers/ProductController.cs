@@ -5,11 +5,17 @@ using JuanApp.Data;
 using Microsoft.EntityFrameworkCore;
 using JuanApp.Models;
 using JuanApp.Areas.Manage.Helpers;
+using JuanApp.Services;
+using Microsoft.Extensions.Options;
+using JuanApp.Settings;
 
 namespace JuanApp.Areas.Manage.Controllers
 {
     [Area("Manage")]
-    public class ProductController(JuanDbContext juanDbContext) : Controller
+    public class ProductController(JuanDbContext juanDbContext,
+        EmailService emailService,
+        IOptions<EmailSetting> emailOptions
+        ) : Controller
     {
 
         public IActionResult Index(int page = 1, int take = 2)
@@ -51,6 +57,10 @@ namespace JuanApp.Areas.Manage.Controllers
         [HttpPost]
         public IActionResult Create(Product product)
         {
+            var emails = juanDbContext.Users
+                .Select(x => x.Email)
+                .ToList();
+
             ViewBag.Categories = new SelectList(juanDbContext.Categories.ToList(), "Id", "Name");
             if (!ModelState.IsValid)
             {
@@ -86,6 +96,10 @@ namespace JuanApp.Areas.Manage.Controllers
 
             juanDbContext.Products.Add(product);
             juanDbContext.SaveChanges();
+            
+            var url = Url.Action("Detail", "Product", new { id = product.Id }, Request.Scheme);
+            var body = $"<h1>New Product</h1><p>Product Name: {product.Name}</p><p>Product Price: {product.Price}</p><p>Product Url: <a href='{url}'>Click Here</a></p>";
+            emailService.SendEmails(emails, "New Product", body, emailOptions.Value);
             return RedirectToAction("Index");
         }
         public IActionResult Edit(int? id)

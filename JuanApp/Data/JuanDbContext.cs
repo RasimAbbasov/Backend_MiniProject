@@ -20,6 +20,7 @@ namespace JuanApp.Data
         public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<ProductTag> ProductTags { get; set; }
         public DbSet<AppUser> AppUsers { get; set; }
+        public DbSet<DbBasketItem> DbBasketItems { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

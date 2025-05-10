@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9yfM9y/a61IFZKnNSZ3UXAXFS2WN18wuCNhr2TATOJY=",
+  "Hash": "REDAoksA2U4NdeJYIsKZh8+BRx6GfHEoAAYOKsXDWts=",
   "Source": "JuanApp",
   "BasePath": "_content/JuanApp",
   "Mode": "Default",
@@ -1670,6 +1670,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\active.js"
     },
     {
+      "Identity": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\assets\\js\\main.js",
+      "SourceId": "JuanApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\",
+      "BasePath": "_content/JuanApp",
+      "RelativePath": "assets/js/main.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\main.js"
+    },
+    {
       "Identity": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\assets\\js\\modernizr-2.8.3.min.js",
       "SourceId": "JuanApp",
       "SourceType": "Discovered",
@@ -2960,6 +2979,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\manage\\assets\\js\\scripts.js"
+    },
+    {
+      "Identity": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\templates\\forgotpassword.html",
+      "SourceId": "JuanApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\",
+      "BasePath": "_content/JuanApp",
+      "RelativePath": "templates/forgotpassword.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\templates\\forgotpassword.html"
+    },
+    {
+      "Identity": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\templates\\verifyemail.html",
+      "SourceId": "JuanApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\",
+      "BasePath": "_content/JuanApp",
+      "RelativePath": "templates/verifyemail.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\templates\\verifyemail.html"
     }
   ]
 }

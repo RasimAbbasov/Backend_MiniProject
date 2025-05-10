@@ -1,5 +1,6 @@
 ﻿using JuanApp.Areas.Manage.ViewModel;
 using JuanApp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,7 +22,7 @@ namespace JuanApp.Areas.Manage.Controllers
                 Email = "admin@gmail.com",
             };
             var result = await userManager.CreateAsync(user, "_Admin123");
-            await userManager.AddToRoleAsync(user, "admin");
+            await userManager.AddToRoleAsync(user, "Admin");
 
             return Json(result);
         }
@@ -30,7 +31,7 @@ namespace JuanApp.Areas.Manage.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Login(AdminLoginVm adminLoginVm)
+        public async Task<IActionResult> Login(AdminLoginVm adminLoginVm,string? returnUrl)
         {
             if (!ModelState.IsValid)
                 return View();
@@ -40,7 +41,7 @@ namespace JuanApp.Areas.Manage.Controllers
                 ModelState.AddModelError("", "Username or password is incorrect");
                 return View();
             }
-            if (!await userManager.IsInRoleAsync(user, "Admin") || !await userManager.IsInRoleAsync(user, "SuperAdmin"))
+            if (user==null||(!(await userManager.IsInRoleAsync(user,"Admin")||!await userManager.IsInRoleAsync(user,"SuperAdmin"))))
             {
                 ModelState.AddModelError("", "You are not allowed to login");
                 return View();
@@ -59,13 +60,14 @@ namespace JuanApp.Areas.Manage.Controllers
             //    return View();
             //}
 
-            return RedirectToAction("Index", "Dashboard");
+            return returnUrl != null ? Redirect(returnUrl) : RedirectToAction("Index", "Dashboard");
         }
         public async Task<IActionResult> Logout()
         {
             await signInManager.SignOutAsync();
             return RedirectToAction("Login", "Account", "Manage");
         }
+        [Authorize(Roles ="Admin,SuperAdmin")]
         public async Task<IActionResult> UserProfile()
         {
             var user = await userManager.FindByNameAsync(User.Identity.Name);

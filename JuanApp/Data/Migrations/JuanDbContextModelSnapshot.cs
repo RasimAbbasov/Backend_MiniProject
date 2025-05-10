@@ -114,6 +114,33 @@ namespace JuanApp.Data.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("JuanApp.Models.DbBasketItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("DbBasketItems");
+                });
+
             modelBuilder.Entity("JuanApp.Models.Feature", b =>
                 {
                     b.Property<int>("Id")
@@ -236,15 +263,6 @@ namespace JuanApp.Data.Migrations
 
                     b.Property<int>("TagId")
                         .HasColumnType("int");
-
-                    b.Property<DateTime?>("CreateDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime?>("UpdateDate")
-                        .HasColumnType("datetime2");
 
                     b.HasKey("ProductId", "TagId");
 
@@ -468,6 +486,25 @@ namespace JuanApp.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("JuanApp.Models.DbBasketItem", b =>
+                {
+                    b.HasOne("JuanApp.Models.AppUser", "AppUser")
+                        .WithMany("DbBasketItems")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("JuanApp.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("JuanApp.Models.Product", b =>
                 {
                     b.HasOne("JuanApp.Models.Category", "Category")
@@ -558,6 +595,11 @@ namespace JuanApp.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("JuanApp.Models.AppUser", b =>
+                {
+                    b.Navigation("DbBasketItems");
                 });
 
             modelBuilder.Entity("JuanApp.Models.Category", b =>

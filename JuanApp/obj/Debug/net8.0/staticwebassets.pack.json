@@ -345,6 +345,10 @@
       "PackagePath": "staticwebassets\\assets\\js\\active.js"
     },
     {
+      "Id": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
       "Id": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\assets\\js\\modernizr-2.8.3.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\modernizr-2.8.3.min.js"
     },
@@ -615,6 +619,14 @@
     {
       "Id": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\manage\\assets\\js\\scripts.js",
       "PackagePath": "staticwebassets\\manage\\assets\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\templates\\forgotpassword.html",
+      "PackagePath": "staticwebassets\\templates\\forgotpassword.html"
+    },
+    {
+      "Id": "C:\\Users\\Rasim\\source\\repos\\JuanApp\\JuanApp\\wwwroot\\templates\\verifyemail.html",
+      "PackagePath": "staticwebassets\\templates\\verifyemail.html"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.JuanApp.Microsoft.AspNetCore.StaticWebAssets.props",

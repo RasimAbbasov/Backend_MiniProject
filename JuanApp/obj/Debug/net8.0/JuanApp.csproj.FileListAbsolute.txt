@@ -392,3 +392,9 @@ C:\Users\Rasim\source\repos\JuanApp\JuanApp\bin\Debug\net8.0\runtimes\win\lib\ne
 C:\Users\Rasim\source\repos\JuanApp\JuanApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\Rasim\source\repos\JuanApp\JuanApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Rasim\source\repos\JuanApp\JuanApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Rasim\source\repos\JuanApp\JuanApp\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Rasim\source\repos\JuanApp\JuanApp\bin\Debug\net8.0\MailKit.dll
+C:\Users\Rasim\source\repos\JuanApp\JuanApp\bin\Debug\net8.0\MimeKit.dll
+C:\Users\Rasim\source\repos\JuanApp\JuanApp\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\Rasim\source\repos\JuanApp\JuanApp\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Rasim\source\repos\JuanApp\JuanApp\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
